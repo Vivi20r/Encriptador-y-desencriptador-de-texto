@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+
+</head>
+<body>
+    <main class="main">
+        <img class="logo" src="/imagenes/robot.jpg" alt="Logo">
+        <h1 class="titulo">Encriptador y desencriptador</h1>
+        <div class="caja1">
+            <label for="texto-encriptar">Texto a Encriptar:</label>
+            <textarea id="texto-encriptar"></textarea>
+            <label for="clave-encriptar">Clave de Encriptación:</label>
+            <input type="password" id="clave-encriptar">
+            <button id="boton-encriptar">Encriptar</button>
+        </div>
+        <div class="caja2">
+            <label for="texto-desencriptar">Texto a Desencriptar:</label>
+            <textarea id="texto-desencriptar"></textarea>
+            <label for="clave-desencriptar">Clave de Desencriptación:</label>
+            <input type="password" id="clave-desencriptar">
+            <button id="boton-desencriptar">Desencriptar</button>
+        </div>
+        <div id="resultado"></div>
+          
+    </main>
+    <script src="/javaScript/encriptar.js"></script>
+    <script src="/javaScript/desencriptar.js" ></script>
+</body>
+</html>
+
+
+  
